@@ -60,7 +60,7 @@ if isInWhitelist or isInCustomer then
             end
         end
     )
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/yuhaodatt/script/main/TX/TXgames.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TongScriptX/TongScript/main/TXgames.lua"))()
 else
     game.Players.LocalPlayer:Kick("未检测到白名单")
 end
