@@ -65,7 +65,7 @@ end
 -- 控制开关
 local toggle = false
 
-tab:Toggle("Toggle", false, function(t)
+tab:Toggle("寻找零件", false, function(t)
     toggle = t
     print("Toggle state:", toggle)
 end)
