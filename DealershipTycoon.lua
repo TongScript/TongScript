@@ -1,9 +1,7 @@
--- 加载必要的库
 local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
 local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt"))()
 
--- 创建窗口和标签
 local win = lib:Window("TX-DT", Color3.fromRGB(44, 120, 224), Enum.KeyCode.RightControl)
 local tab = win:Tab("谷仓寻车")
 local changeclr = win:Tab("Change UI Color")
@@ -98,7 +96,7 @@ tab:Bind("Bind", Enum.KeyCode.RightShift, function()
 end)
 
 -- 标签
-tab:Label("Label")
+tab:Label("TStudio X")
 
 -- 颜色选择器
 changeclr:Colorpicker("Change UI Color", Color3.fromRGB(44, 120, 224), function(t)
