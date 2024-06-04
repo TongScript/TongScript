@@ -18,7 +18,7 @@ local function showNotification(gameName)
     local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
 
     Notification:Notify(
-        {Title = "Tong X", Description = "是否加载"..gameName.. "脚本"},
+        {Title = "TongScript X", Description = "是否加载"..gameName.. "脚本"},
         {OutlineColor = Color3.fromRGB(80, 80, 80), Time = 999, Type = "option"},
         {
             Image = "http://www.roblox.com/asset/?id=6023426923",
