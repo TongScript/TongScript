@@ -1,16 +1,9 @@
-local NotificationHolder =
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+-- Main script
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
 
-local whitelist = {
-    "tongguheren090325",
-    "Tongdscsh",
-    "shao_ba",
-}
-
-local customerlist = {
-
-}
+local whitelistScript = game:HttpGet("https://raw.githubusercontent.com/TongScriptX/TongScript/main/whitelist.lua")
+local whitelist = loadstring(whitelistScript)()
 
 local player = game.Players.LocalPlayer
 local playerName = player.Name
